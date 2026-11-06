@@ -416,11 +416,11 @@ Use</a></li>
 
 <p><strong>AI Assistance Declaration:</strong> ChatGPT (GPT-6 family, 6
 November 2026) assisted with documentation structure, wording,
-formatting, illustrative R code and reflection drafts. Prompts are
+formatting, illustrative R code and reflection responses. Prompts are
 recorded in Appendix.md. The assistant checked the Markdown, ran the R
 script and knitted the R Markdown document. This example contains no
-analytical calculations. Student review is required before signing the
-instructor’s personal declaration.</p>
+analytical calculations. The student remains responsible for reviewing
+accuracy and originality.</p>
 <div id="purpose" class="section level1" number="1">
 <h1><span class="header-section-number">1</span> Purpose</h1>
 <p>This document explains <code>sales_display.R</code>, a small base-R
@@ -467,15 +467,16 @@ information is present.</p>
 <h1><span class="header-section-number">3</span> Outputs</h1>
 <p>The script creates an in-memory data frame named <code>sales</code>
 and prints it without row numbers. It creates no persistent data file
-and changes no input file. Knitting this Rmd creates an HTML
-documentation file separately.</p>
+and changes no input file. Knitting this Rmd creates a separate HTML or
+PDF documentation file.</p>
 </div>
 <div id="requirements-and-execution" class="section level1" number="4">
 <h1><span class="header-section-number">4</span> Requirements and
 Execution</h1>
 <p>The script needs only base R. Knitting needs <code>rmarkdown</code>,
-<code>knitr</code> and Pandoc. Set the working directory to the
-repository root when running the example manually.</p>
+<code>knitr</code> and Pandoc. PDF output additionally requires a LaTeX
+distribution with XeLaTeX. Set the working directory to the repository
+root when running the example manually.</p>
 <div id="run-the-documented-script" class="section level2" number="4.1">
 <h2><span class="header-section-number">4.1</span> Run the Documented
 Script</h2>

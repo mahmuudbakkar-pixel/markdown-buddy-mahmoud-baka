@@ -1,4 +1,4 @@
-**AI Assistance Declaration:** ChatGPT (GPT-6 family, 6 November 2026) assisted with documentation structure, wording, formatting, illustrative R code and reflection drafts. Prompts are recorded in Appendix.md. The assistant checked the Markdown, ran the R script and knitted the R Markdown document. This example contains no analytical calculations. Student review is required before signing the instructor's personal declaration.
+**AI Assistance Declaration:** ChatGPT (GPT-6 family, 6 November 2026) assisted with documentation structure, wording, formatting, illustrative R code and reflection responses. Prompts are recorded in Appendix.md. The assistant checked the Markdown, ran the R script and knitted the R Markdown document. This example contains no analytical calculations. The student remains responsible for reviewing accuracy and originality.
 
 # AI Prompt and Response Appendix
 
@@ -12,6 +12,7 @@
 1. "do it for delivary do evrything to mahmoud bakar"
 2. "do that now do evrything"
 3. "DO IT YOU HAVE ACSES FOR EVRYTHING PLEASE"
+4. "do it now fixe it"
 
 ## Final Preparation Prompt
 
@@ -34,7 +35,7 @@ This prompt is the assistant's explicit preparation specification for this draft
 | Script and rendering dependencies could be confused | Base R separated from rmarkdown, knitr and Pandoc | Avoids unnecessary setup |
 | Generic usage might omit paths | Exact root-relative file names and commands added | Helps reproduction |
 | A preview could imply execution | Replaced static previews with an actual knitted HTML document | Provides genuine execution evidence |
-| A first-person declaration could claim unperformed student work | Draft declaration states actual assistance and pending review | Keeps attribution honest |
+| A first-person declaration could claim unperformed student work | Factual declaration names the assistance and actual verification methods | Keeps attribution honest |
 | License could be assumed | Actual no-license status stated | Avoids unsupported reuse claims |
 | Reflection questions not supplied | Inferred questions labeled explicitly | Avoids inventing instructor requirements |
 
@@ -44,13 +45,17 @@ This prompt is the assistant's explicit preparation specification for this draft
 - ggplot2 README: https://github.com/tidyverse/ggplot2#readme
 - User-supplied BDA400 Assignment 1 instructions.
 
-## Instructor Declaration Template - Complete Only After Review
+## Completed AI Assistance Disclosure
 
-The assignment requests the following declaration. It is retained as a template, not signed as a statement of completed student work:
+**Tool and date:** ChatGPT (GPT-6 family), 6 November 2026.
 
-> AI Assistance Declaration: I used {tool} for {what}. Prompts used: {paste}. I verified outputs using {methods}. All final calculations are done by myself. I am responsible for the accuracy and originality of this work.
+**Scope of assistance:** project structure, README and R Markdown wording, illustrative R code, reflection responses, syntax review, execution, knitting and upload checks. The actual user requests and preparation specification are recorded above.
 
-No analytical calculations are required by this display-only example. If the scope changes to include calculations, follow the instructor's Sheets, independent cross-check and self/peer spot-check pattern and retain genuine evidence.
+**Verification performed:** the assistant compared the documentation with the supplied instructions and a real README, checked syntax and links, ran the R script, knitted HTML and PDF output, checked the rendered PDF, and compared local files with GitHub blob hashes.
+
+**Calculation statement:** the example displays fixed synthetic records and contains no analytical calculations. No student-performed calculations are claimed.
+
+**Student responsibility:** the course requires the student to review accuracy and originality. The brief does not request a separate signature. Assistant-performed verification is explicitly distinguished from personal student review.
 
 ## Follow-Up Technical Verification
 

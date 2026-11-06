@@ -1,4 +1,4 @@
-**AI Assistance Declaration:** ChatGPT (GPT-6 family, 6 November 2026) assisted with documentation structure, wording, formatting, illustrative R code and reflection drafts. Prompts are recorded in Appendix.md. The assistant checked the Markdown, ran the R script and knitted the R Markdown document. This example contains no analytical calculations. Student review is required before signing the instructor's personal declaration.
+**AI Assistance Declaration:** ChatGPT (GPT-6 family, 6 November 2026) assisted with documentation structure, wording, formatting, illustrative R code and reflection responses. Prompts are recorded in Appendix.md. The assistant checked the Markdown, ran the R script and knitted the R Markdown document. This example contains no analytical calculations. The student remains responsible for reviewing accuracy and originality.
 
 # Intended README Outline
 

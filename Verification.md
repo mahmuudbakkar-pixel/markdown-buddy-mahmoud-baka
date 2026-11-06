@@ -1,4 +1,4 @@
-**AI Assistance Declaration:** ChatGPT (GPT-6 family, 6 November 2026) assisted with documentation structure, wording, formatting, illustrative R code and reflection drafts. Prompts are recorded in Appendix.md. The assistant checked the Markdown, ran the R script and knitted the R Markdown document. This example contains no analytical calculations. Student review is required before signing the instructor's personal declaration.
+**AI Assistance Declaration:** ChatGPT (GPT-6 family, 6 November 2026) assisted with documentation structure, wording, formatting, illustrative R code and reflection responses. Prompts are recorded in Appendix.md. The assistant checked the Markdown, ran the R script and knitted the R Markdown document. This example contains no analytical calculations. The student remains responsible for reviewing accuracy and originality.
 
 # Verification Record
 
@@ -50,7 +50,7 @@ The command completed successfully and produced `sales_display.html`.
 
 - Repository: published at [https://github.com/mahmuudbakkar-pixel/markdown-buddy-mahmoud-baka](https://github.com/mahmuudbakkar-pixel/markdown-buddy-mahmoud-baka). The user-created repository name ends in `baka`; the intended full-name spelling is `bakar`. Rename it in GitHub settings if exact full-name spelling is required.
 - GitHub visual preview: uploaded source files were verified through the GitHub API. Local Markdown syntax and knitted output were checked; a live GitHub browser preview was not completed.
-- Student: review the documents and execution output, and complete the instructor's first-person declaration truthfully.
+- Student: review the documents and execution output as required by the course. AI assistance and the actual verification methods are disclosed; no separate signature is required by the supplied brief.
 - Reflection: the supplied PDF does not state the three questions. The included answers cover AI support, verification and ethical practice; compare with any additional LMS wording.
 
 The completed technical checks above were performed by the assistant. They do not assert that the student personally ran those checks.

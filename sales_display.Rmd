@@ -8,9 +8,13 @@ output:
   html_document:
     toc: true
     number_sections: true
+  pdf_document:
+    latex_engine: xelatex
+    toc: false
+    number_sections: true
 ---
 
-**AI Assistance Declaration:** ChatGPT (GPT-6 family, 6 November 2026) assisted with documentation structure, wording, formatting, illustrative R code and reflection drafts. Prompts are recorded in Appendix.md. The assistant checked the Markdown, ran the R script and knitted the R Markdown document. This example contains no analytical calculations. Student review is required before signing the instructor's personal declaration.
+**AI Assistance Declaration:** ChatGPT (GPT-6 family, 6 November 2026) assisted with documentation structure, wording, formatting, illustrative R code and reflection responses. Prompts are recorded in Appendix.md. The assistant checked the Markdown, ran the R script and knitted the R Markdown document. This example contains no analytical calculations. The student remains responsible for reviewing accuracy and originality.
 
 # Purpose
 
@@ -30,11 +34,11 @@ The three months are January, February and March. The product is Notebook. The f
 
 # Outputs
 
-The script creates an in-memory data frame named `sales` and prints it without row numbers. It creates no persistent data file and changes no input file. Knitting this Rmd creates an HTML documentation file separately.
+The script creates an in-memory data frame named `sales` and prints it without row numbers. It creates no persistent data file and changes no input file. Knitting this Rmd creates a separate HTML or PDF documentation file.
 
 # Requirements and Execution
 
-The script needs only base R. Knitting needs `rmarkdown`, `knitr` and Pandoc. Set the working directory to the repository root when running the example manually.
+The script needs only base R. Knitting needs `rmarkdown`, `knitr` and Pandoc. PDF output additionally requires a LaTeX distribution with XeLaTeX. Set the working directory to the repository root when running the example manually.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = TRUE)
