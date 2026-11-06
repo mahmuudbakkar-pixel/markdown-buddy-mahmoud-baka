@@ -16,6 +16,7 @@
 | R Markdown HTML knit | Passed | `sales_display.html` generated using rmarkdown |
 | R Markdown PDF knit | Passed | `sales_display.pdf` generated with XeLaTeX and visually checked |
 | Author naming | Passed | Core project documents use Mahmoud Bakar |
+| GitHub upload | Passed | All nine files published; remote Git blob hashes matched local files |
 
 ## Actual Execution Output
 
@@ -47,7 +48,8 @@ The command completed successfully and produced `sales_display.html`.
 
 ## Outstanding Submission Steps
 
-- GitHub: publish the files in `markdown-buddy-mahmoud-bakar` and check the rendered README. The connector accesses the existing account, but creation of a new repository requires a separate browser sign-in.
+- Repository: published at [https://github.com/mahmuudbakkar-pixel/markdown-buddy-mahmoud-baka](https://github.com/mahmuudbakkar-pixel/markdown-buddy-mahmoud-baka). The user-created repository name ends in `baka`; the intended full-name spelling is `bakar`. Rename it in GitHub settings if exact full-name spelling is required.
+- GitHub visual preview: uploaded source files were verified through the GitHub API. Local Markdown syntax and knitted output were checked; a live GitHub browser preview was not completed.
 - Student: review the documents and execution output, and complete the instructor's first-person declaration truthfully.
 - Reflection: the supplied PDF does not state the three questions. The included answers cover AI support, verification and ethical practice; compare with any additional LMS wording.
 

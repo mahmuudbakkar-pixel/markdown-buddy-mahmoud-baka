@@ -25,7 +25,7 @@ This prompt is the assistant's explicit preparation specification for this draft
 - README: describes a synthetic sales-display project, exact commands and distinct script/rendering requirements.
 - R Markdown: documents one script, with Purpose, Inputs, Outputs, execution and verification sections.
 - Reflection: three proposed topics address AI support, validation and ethical use; the exact instructor questions were absent.
-- Evidence: records the difference between static document checks and the completed R execution/knit checks, with GitHub publication still pending.
+- Evidence: records the difference between static document checks and the completed R execution/knit checks, followed by verified publication to the user-provided GitHub repository.
 
 ## Refinement and Critique Record
 
@@ -57,3 +57,7 @@ No analytical calculations are required by this display-only example. If the sco
 After the request to complete the remaining work, the assistant installed R and the document-rendering packages, ran `Rscript sales_display.R`, and rendered `sales_display.Rmd` with rmarkdown. The run returned the three expected records without an error. Outdated statements that R was unavailable were removed.
 
 Environment: R 4.3.3; rmarkdown 2.25; knitr 1.45; Pandoc 3.1.3. The HTML is a genuine knitted document. Personal student review is not represented as completed.
+
+## GitHub Publication
+
+The user supplied the repository URL and requested upload. All nine project files were published to [https://github.com/mahmuudbakkar-pixel/markdown-buddy-mahmoud-baka](https://github.com/mahmuudbakkar-pixel/markdown-buddy-mahmoud-baka). Each uploaded Git blob hash was compared with the corresponding local file. The repository name provided by the user ends with `baka`; all author fields retain Mahmoud Bakar.

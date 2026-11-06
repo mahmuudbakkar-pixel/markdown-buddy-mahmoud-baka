@@ -5,6 +5,8 @@
 **Mahmoud Bakar | BDA400 - Data Science Tools and Techniques**  
 **Assignment 1: Markdown Buddy | 6 November 2026**
 
+**GitHub repository:** [https://github.com/mahmuudbakkar-pixel/markdown-buddy-mahmoud-baka](https://github.com/mahmuudbakkar-pixel/markdown-buddy-mahmoud-baka)
+
 ## Overview
 
 This small R project demonstrates clear documentation for a reproducible data-analysis workflow. Its deliberately limited script displays a fictional sales table. It does not calculate totals, averages or other results. The emphasis is on explaining a script, documenting dependencies and organizing a professional repository.
